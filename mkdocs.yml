@@ -1,0 +1,70 @@
+site_name: Calculator-Based Website
+site_description: Free online calculators for students and engineers
+site_author: Ifeanyi Oguamah
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+  custom_dir: docs/overrides
+  
+nav:
+  - Home: index.md
+  - About: about.md
+  - Terms of Use: terms-of-use.md
+  - Privacy Policy: privacy.md
+  - Contact: contact.md
+
+  - Calculators:
+      - Linear Regression: calculators/linear-regression.md
+      - Descriptive Statistics: calculators/descriptive-statistics.md
+      - Median & Quartiles: calculators/median-quartiles.md
+      - Histogram: calculators/histogram.md
+      - Confidence Interval: calculators/confidence-interval.md
+      - z score normalization: calculators/zscore-normalization.md 
+      - Integrated Statistics: calculators/integrated-statistics.md
+      - Length Units: calculators/length-units.md
+      - Volume Units: calculators/volume-units.md
+      - Pressure Units: calculators/pressure-units.md
+      - Pressure Gradient: calculators/pressure-gradient.md
+      - Temperature Units: calculators/temperature-unit.md
+      - Gas Law Calculator: calculators/gas-law.md
+      - Gas Z-Factor Calculator: calculators/gas-zfactor.md
+      - Gas Density Calculator: calculators/gas-density.md
+      - Energy Conversion Calculator: calculators/energy.md
+      - Area Converter: calculators/area.md
+      - Force Converter: calculators/force.md
+      - Torque / Moment Converter: calculators/torque.md
+      - Work / Energy Calculator: calculators/work-energy.md
+      - Power Calculator: calculators/power.md
+      - Force Calculator (F = m a): calculators/force-calc.md
+      - Speed / Velocity Converter: calculators/speed.md
+      - Data Storage: calculators/data-storage.md
+      - Data Transfer Rate: calculators/data-transfer.md
+      - Time Converter: calculators/time.md
+      - Angle Converter: calculators/angle.md
+      - Fuel Efficiency: calculators/fuel-efficiency.md
+      - Fuel Consumption: calculators/fuel-consumption.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+
+extra_css:
+  - assets/css/custom.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/chart.js
+  - assets/js/regression.js
+
+extra:
+  footer: >
+    © 2026 Engineering Calculators |
+    <a href="/about/">About</a> |
+    <a href="/privacy/">Privacy Policy</a> |
+    <a href="/terms-of-use/">Terms of Use</a>
+
+
