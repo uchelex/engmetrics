@@ -1,0 +1,55 @@
+.calc-box {
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #1976d2;
+  color: white;
+  border: none;
+}
+
+.error {
+  color: red;
+}
+
+canvas {
+  margin-top: 20px;
+}
+
+.custom-footer {
+  text-align: center;
+  font-size: 0.85rem;
+  padding: 18px 0;
+  border-top: 2px solid var(--md-primary-fg-color);
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.custom-footer a {
+  color: var(--md-primary-fg-color);
+  text-decoration: none;
+  margin: 0 6px;
+  font-weight: 500;
+}
+
+.custom-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode adjustment */
+[data-md-color-scheme="slate"] .custom-footer {
+  color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
